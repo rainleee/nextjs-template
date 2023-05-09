@@ -16,7 +16,7 @@
     "incremental": true,
     "paths": {
       "@/*": ["./src/*"],
-      "stitches.config": ["./styles/stitches.config.ts"]
+      "stitches.config": ["./src/styles/stitches.config.ts"]
     },
     "types": ["vitest/globals"]
   },

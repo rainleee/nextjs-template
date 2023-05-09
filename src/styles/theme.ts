@@ -19,7 +19,7 @@ const STBlueColors = {
   "STBlue-200": "#DCDCFF",
   "STBlue-100": "#EAEAFF",
   "STBlue-50": "#F5F5FF",
-  "STBLUE-25": "#FAFAFE",
+  "STBlue-25": "#FAFAFE",
 };
 
 const WarmGrayColors = {
