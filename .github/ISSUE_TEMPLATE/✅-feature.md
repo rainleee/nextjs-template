@@ -1,18 +1,9 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
-
----
-
----
 name: "✅ Feature"
 about: Feature 작업 사항을 입력해 주세요.
 title: Feature Request
 labels: ''
-assignees: ''
+assignees: rainleee
 
 ---
 
