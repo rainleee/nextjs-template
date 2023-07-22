@@ -2,6 +2,7 @@
   "name": "nextjs-template",
   "version": "0.1.0",
   "private": true,
+  "author": "rainlee4401@gmail.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,9 +14,11 @@
     "test:e2e": "playwright test",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "codegen": "graphql-codegen --config codegen.ts"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.17",
     "@stitches/react": "^1.2.8",
     "@tanstack/react-query": "^4.29.25",
     "@types/node": "18.16.3",
@@ -24,15 +27,20 @@
     "axios": "^1.4.0",
     "eslint": "8.39.0",
     "eslint-config-next": "^13.3.4",
+    "graphql": "^16.7.1",
     "next": "^13.4.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4",
+    "typescript": "^5.1.6",
     "zustand": "^4.3.7"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^17.6.1",
+    "@graphql-codegen/cli": "^4.0.1",
+    "@graphql-codegen/client-preset": "^4.0.1",
+    "@graphql-codegen/near-operation-file-preset": "^2.5.0",
+    "@graphql-codegen/typescript": "^4.0.1",
     "@playwright/test": "^1.33.0",
     "@storybook/addon-essentials": "^7.0.8",
     "@storybook/addon-interactions": "^7.0.8",
@@ -57,6 +65,7 @@
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "storybook": "^7.0.8",
+    "ts-node": "^10.9.1",
     "vitest": "^0.30.1"
   },
   "lint-staged": {
