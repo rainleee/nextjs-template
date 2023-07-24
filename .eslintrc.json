@@ -58,5 +58,14 @@
         "allow": ["error", "warn"]
       }
     ]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.graphql.ts"],
+      "rules": {
+        "import/order": "off",
+        "@typescript-eslint/no-non-null-assertion": "off"
+      }
+    }
+  ]
 }
