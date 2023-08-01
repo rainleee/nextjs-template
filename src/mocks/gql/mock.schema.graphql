@@ -1,0 +1,14 @@
+input HelloWorldInput {
+  id: String!
+}
+
+type HelloWorld {
+  #Exam value
+  hello: String!
+  #Exam value
+  world: String!
+}
+
+type Query {
+  helloWorld(input: HelloWorldInput!): HelloWorld!
+}
