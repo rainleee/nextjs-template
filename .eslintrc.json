@@ -61,7 +61,7 @@
   },
   "overrides": [
     {
-      "files": ["*.graphql.ts"],
+      "files": ["*.graphql.ts","_index.ts"],
       "rules": {
         "import/order": "off",
         "@typescript-eslint/no-non-null-assertion": "off"
