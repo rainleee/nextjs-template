@@ -1,0 +1,6 @@
+query helloWorld($input: HelloWorldInput!) {
+  helloWorld(input: $input) {
+    hello
+    world
+  }
+}
