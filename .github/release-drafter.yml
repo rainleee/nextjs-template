@@ -7,7 +7,7 @@ categories:
   - title: "🐛 Bug Fixes"
     labels:
       - "bug"
-  - title: "💄 Style change"
+  - title: "💄 Style Changes"
     label: "style"
 change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
